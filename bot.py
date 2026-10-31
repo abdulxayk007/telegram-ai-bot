@@ -19,7 +19,7 @@ load_dotenv()
 
 TELEGRAM_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 MAX_HISTORY = int(os.getenv("MAX_HISTORY", "20"))  # saqlanadigan xabarlar soni
 SYSTEM_PROMPT = os.getenv(
     "SYSTEM_PROMPT",
